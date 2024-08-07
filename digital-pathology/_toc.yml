@@ -4,7 +4,10 @@
 format: jb-book
 root: README
 parts:
-  - caption: Concepts of Deep Learning
+  - caption: Concepts in Deep Learning
     chapters:
     - file: Part1-DeepLearning/dl-chapter1
 
+  - caption: Concepts in Oncology
+    chapters:
+    - file: Part2-Oncology/onc-chapter1
