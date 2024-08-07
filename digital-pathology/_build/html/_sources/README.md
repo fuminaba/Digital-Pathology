@@ -2,5 +2,4 @@
 By: Fumi Inaba
 
 ```{tableofcontents}
-
 ```

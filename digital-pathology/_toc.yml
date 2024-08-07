@@ -6,5 +6,5 @@ root: README
 parts:
   - caption: Concepts of Deep Learning
     chapters:
-    - file: digital-pathology/DeepLearning/chapter1
+    - file: Part1-DeepLearning/dl-chapter1
 
