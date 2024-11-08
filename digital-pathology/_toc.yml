@@ -4,10 +4,10 @@
 format: jb-book
 root: README
 parts:
-  - caption: Concepts in Deep Learning
+  - caption: Statistics Toolbox
     chapters:
-    - file: Part1-DeepLearning/dl-chapter1
+    - file: Statistics/stats_toolbox.md
 
   - caption: Concepts in Oncology
     chapters:
-    - file: Part2-Oncology/onc-chapter1
+    - file: Oncology/onc-chapter1
