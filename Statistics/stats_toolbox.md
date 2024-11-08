@@ -7,8 +7,10 @@ For any given statistical method/function/tool, there are a few important questi
 
 ## Summary Statistics
 ### Mean 
-**Definition**: Sum of all values divided by the number of elements in a given set. 
-$$\bar{x}=\frac{\sum_{i=1}^{n}x_i}{n}$$
+**Definition**: Sum of all values divided by the number of elements in a given set.  
+$$
+    \bar{x}=\frac{\sum_{i=1}^{n}x_i}{n}
+$$
 
 ````{tab-set}
 ```{tab-item} Input Data
