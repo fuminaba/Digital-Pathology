@@ -39,8 +39,8 @@ Another is the trimmed mean, where the smallest and largest 'p' values are remov
     \bar{x}_w=\frac{\sum_{i=1}^{n}w_ix_i}{\sum_{i=1}^{n}w_i}
 \end{equation}
 **Input Data**: Numerical  
-**Limitations**: Requires definition of weights which may introduce bias. 
-**Interpretation**: The estimate of the most 'typical' value.
+**Limitations**: Requires definition of weights which may introduce bias.  
+**Interpretation**: The estimate of the most 'typical' value.  
 ````{tab-set}
 ```{tab-item} Input Data
 Numerical (although more interpretable on continuous data)  
@@ -53,13 +53,13 @@ The most common or 'typical' value in a distribution of values.
 ```
 ````
 #### Trimmed Mean 
-**Definition**: Variation of the mean where the smallest and largest $p$ values are removed. 
+**Definition**: Variation of the mean where the smallest and largest $p$ values are removed.  
 \begin{equation}
     \bar{x}=\frac{\sum_{i=p+1}^{n-p}x_{(i)}}{n-2p}
 \end{equation}
 **Input Data**: Numerical   
 **Limitations**: Potentially cuts outliers out of the distribution, but may also introduce bias.   
-**Interpretation**: Estimate of the most typical value in a distribution.  
+**Interpretation**: Estimate of the most typical value in a distribution.   
 
 #### Median 
 **Definition**: The *middle* value in a sorted list of values.
@@ -71,8 +71,8 @@ The most common or 'typical' value in a distribution of values.
         \frac{X[\frac{n}{2}]+X[\frac{n}{2}+1]}{2}, & \text{if } n \text{ is even}
     \end{cases}   
 \end{equation}
-**Input Data**: Numerical  
-**Limitations**:   
+**Input Data**: Numerical   
+**Limitations**:    
 **Interpretation**: A robust estimate of location since it isn't influenced by outliers as strongly as mean.   
 
 ```{note}

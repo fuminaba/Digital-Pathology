@@ -4,10 +4,18 @@
 format: jb-book
 root: README
 parts:
-  - caption: Statistics Toolbox
+  - caption: Statistical Methods
     chapters:
     - file: Statistics/stats_toolbox.md
+    - file: Statistics/1-distributions.md
 
   - caption: Concepts in Oncology
     chapters:
-    - file: Oncology/onc-chapter1
+    - file: Oncology/1-cancer-hallmarks.md
+      sections:
+      - file: Oncology/1-Hallmarks/self-sufficiency-growth-signals.md
+      - file: Oncology/1-Hallmarks/antigrowth-signal-insensitivity.md
+      - file: Oncology/1-Hallmarks/evading-apoptosis.md
+      - file: Oncology/1-Hallmarks/limitless-replication.md
+      - file: Oncology/1-Hallmarks/sustained-angiogenesis.md
+      - file: Oncology/1-Hallmarks/tissue-invasion-metastasis.md
