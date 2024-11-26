@@ -4,11 +4,6 @@
 format: jb-book
 root: README
 parts:
-  - caption: Statistical Methods
-    chapters:
-    - file: Statistics/stats_toolbox.md
-    - file: Statistics/1-distributions.md
-
   - caption: Concepts in Oncology
     chapters:
     - file: Oncology/1-cancer-hallmarks.md
@@ -19,3 +14,12 @@ parts:
       - file: Oncology/1-Hallmarks/limitless-replication.md
       - file: Oncology/1-Hallmarks/sustained-angiogenesis.md
       - file: Oncology/1-Hallmarks/tissue-invasion-metastasis.md
+      
+  - caption: Statistics
+    chapters:
+    - file: Statistics/stats_toolbox.md
+    - file: Statistics/1-sampling-n-distributions.md
+  
+  - caption: Conducting Effective Research
+    chapters:
+    - file: Research/research-writing.md
