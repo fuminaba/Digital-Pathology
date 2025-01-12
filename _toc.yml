@@ -15,13 +15,3 @@ parts:
     - file: Research/research-toc.md
       sections:
       - file: Research/research-writing.md
-
-
-  - caption: Statistics
-    chapters:
-    - file: Statistics/stats_toolbox.md
-    - file: Statistics/1-sampling-n-distributions.md
-  
-  - caption: Conducting Effective Research
-    chapters:
-    - file: Research/research-writing.md
