@@ -4,17 +4,19 @@
 format: jb-book
 root: README
 parts:
-  - caption: Concepts in Oncology
+  - caption: Foundational Concepts in Medical Image Analysis
     chapters:
-    - file: Oncology/1-cancer-hallmarks.md
+    - file: Histology/histology-toc.md
+    
+    - file: Statistics/stats-toc.md
       sections:
-      - file: Oncology/1-Hallmarks/self-sufficiency-growth-signals.md
-      - file: Oncology/1-Hallmarks/antigrowth-signal-insensitivity.md
-      - file: Oncology/1-Hallmarks/evading-apoptosis.md
-      - file: Oncology/1-Hallmarks/limitless-replication.md
-      - file: Oncology/1-Hallmarks/sustained-angiogenesis.md
-      - file: Oncology/1-Hallmarks/tissue-invasion-metastasis.md
-      
+      - file: Statistics/1-sampling-n-distributions.md
+    
+    - file: Research/research-toc.md
+      sections:
+      - file: Research/research-writing.md
+
+
   - caption: Statistics
     chapters:
     - file: Statistics/stats_toolbox.md

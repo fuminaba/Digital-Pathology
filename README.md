@@ -1,4 +1,4 @@
-# Concepts of Digital Pathology & Pathomics
+# Pathology and Radiology Image Analysis
 By: Fumi Inaba
 Last Updated: January 11, 2025
 
